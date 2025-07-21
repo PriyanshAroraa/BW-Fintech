@@ -1,0 +1,33 @@
+# Ignore compiled MQL5 files
+*.ex5
+*.ex4
+
+# Ignore strategy tester setting files
+*.set
+
+# Ignore log files
+*.log
+
+# Ignore config and temporary files
+*.mqh~
+*.mq5~
+*.tmp
+
+# Ignore MetaEditor backup files
+*.bak
+
+# Ignore user-specific config (optional)
+MetaEditor.ini
+MetaTrader.ini
+
+# Ignore directories you don't want in Git
+Tester/Logs/
+Tester/Cache/
+Tester/Results/
+Logs/
+MQL5/Profiles/
+MQL5/Files/
+MQL5/Images/
+
+# Optional: VSCode project files (if you use it)
+.vscode/
